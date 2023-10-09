@@ -1,6 +1,6 @@
 import pyautogui #bblioteca para identificaçãod e eventos no computador baixe com pip install pyautogui
 import keyboard #biblioteca para identificar eventos no teclado baixe com pip install keyboard
-altura = 600
+altura = 600  #define altura da tela
 largura = 500
 captura =(360, 320, altura, largura)
 ecra = pyautogui.screenshot(region=captura)
